@@ -1,7 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Dime clone 
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
+## Tech Stack
+- Nuxt 3 Composition
+- Vite
+- Typescript
+- Windicss
 ## Setup
 
 Make sure to install the dependencies:
@@ -12,31 +15,11 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## Power of Windi Analysis
+![Screenshot](./windi-analysis.png)
 
-Start the development server on http://localhost:3000
+there are another options to play please checkout to https://windicss.org/ krub ;)
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+# By Sirawich Voungchuy
