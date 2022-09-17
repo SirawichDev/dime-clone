@@ -1,5 +1,5 @@
 # Nuxt 3 Dime clone 
-
+![Screenshot](./hero-section-of-dime-clone.png)
 ## Tech Stack
 - Nuxt 3 Composition
 - Vite
