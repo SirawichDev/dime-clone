@@ -7,7 +7,7 @@
         </div>
         <div class="relative flex justify-center w-full mt-20 gap-25 mx-auto container flex-wrap lg:flex-nowrap flex-wrap-reverse">
           <div class="flex z-2 w-full justify-center lg:justify-start">
-          <img class="h-40 mt-20 h-[10%] lg:h-[20%]" src="https://dime.co.th/left-coin-lg.webp" alt="coin"/>
+          <CoinLeft classes="h-40 mt-20 h-[10%] lg:h-[20%]"/>
           <img class="h-[60%] lg:h-[600px]" src="https://dime.co.th/top-hero-phone-lg.webp" alt="phone"/>
         </div>
           <div class="flex flex-col items-center lg:items-start">
@@ -25,11 +25,13 @@
         <div class="absolute bottom-[0] opacity-60 bg-gradient-to-t from-black z-2 h-50 w-full">
         </div>
       </div>
-      <img src="https://dime.co.th/right-coin.webp" class="absolute bottom-[-10%] lg:bottom-2 z-2 left-[60%] lg:left-[40%]  h-[10%] lg:h-[20%]" alt="coin-right"/> 
+     <CoinRight classes="absolute bottom-[-10%] lg:bottom-2 z-2 left-[60%] lg:left-[40%]  h-[10%] lg:h-[20%]"/>
     </div>
 </template>
 
 <script lang="ts" setup>
 import Text from '@/components/Text.vue'
+import CoinRight from '../icons/CoinRight.vue';
+import CoinLeft from '../icons/CoinLeft.vue';
 
 </script>

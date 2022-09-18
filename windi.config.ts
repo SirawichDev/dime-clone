@@ -6,6 +6,7 @@ import lineClampPlugin from 'windicss/plugin/line-clamp';
 
 export default defineConfig({
     attributify: false,
+    preflight: true,
     safelist: [...Array(5).keys()]
         .filter((key) => key > 0)
         .map(
