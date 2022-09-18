@@ -1,6 +1,6 @@
 <template>
 <div class="container mx-auto pb-20">
-<div class="bg-blue-600 opacity-90 my-[15%] mx-0 lg:mx-[10%] min-h-fit lg:h-[450px] px-20 pt-10 rounded-xl flex justify-around items-center flex-wrap lg:flex-nowrap flex-wrap">
+<div class="bg-blue-600 opacity-90 mt-[15%] mb-[5%] mx-0 lg:mx-[10%] min-h-fit lg:h-[450px] px-20 pt-10 rounded-xl flex justify-around items-center flex-wrap lg:flex-nowrap flex-wrap">
 <div class="flex flex-col gap-10 items-center lg:items-start lg:text-left text-center">
     <Text theme="topic" classes="text-white">
     บริการการเงินดิจิทัลเพื่อทุกคน
