@@ -8,7 +8,8 @@
 import { defineProps } from 'vue'
 const textProps = {
     heading: 'text-6xl font-bold',
-    subHeading: 'text-lg font-normal'
+    subHeading: 'text-lg font-normal',
+    topic: 'text-5xl font-bold',
 }
 const props = defineProps<{ theme: string, classes?: string}>()
 </script>
