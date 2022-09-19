@@ -1,6 +1,6 @@
 <template>
 <div class="bg-black relative">
-    <div class="container mx-auto min-h-[425px]">
+    <div class="container mx-auto min-h-[500px]">
         <img class="absolute" src="https://dime.co.th/roadmap-hero-bg-lg.svg" alt="product-bg"/>
         <CoinLeft classes="absolute h-50"/>
         <CoinLeft classes="absolute right-25 h-30" style="rotate: 339deg;"/>
