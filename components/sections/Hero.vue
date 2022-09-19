@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white">
+  <div class="bg-black text-white relative">
       <div class="w-full relative overflow-hidden min-h-[656px]">
         <div class="absolute  w-full  bottom-0 overflow-hidden">
         <img src="https://dime.co.th/top-hero-bg-left.svg" class="relative h-full bottom-0 lg:bottom-[20%] lg:left-[-40%] z-1"/>
@@ -25,7 +25,7 @@
         <div class="absolute bottom-[0] opacity-60 bg-gradient-to-t from-black z-2 h-50 w-full">
         </div>
       </div>
-     <CoinRight classes="absolute bottom-[-10%] lg:bottom-2 z-2 left-[60%] lg:left-[40%]  h-[10%] lg:h-[20%]"/>
+     <CoinRight classes="absolute bottom-[-5%] lg:bottom-[1] z-2 left-[60%] lg:left-[40%]  h-[10%] lg:h-[20%]"/>
     </div>
 </template>
 
