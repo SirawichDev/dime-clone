@@ -3,14 +3,16 @@
   <Hero/>
   <Service/>
   <Product/>
+  <OurTeam/>
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
-import Hero from '@/components/sections/Hero.vue';
 import {useHead} from "#head";
+import Hero from '@/components/sections/Hero.vue';
 import Service from "@/components/sections/Service.vue";
 import Product from '@/components/sections/Product.vue';
+import OurTeam from '@/components/sections/OurTeam.vue';
 
 useHead({
   title: 'Dime! บริการการเงินดิจิทัลเพื่อทุกคน - เคเคพี่ไดม์',
