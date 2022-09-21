@@ -1,14 +1,12 @@
 <template>
   <div>
-    <Header/>
-    <slot/>
+    <Header />
+    <slot />
   </div>
 </template>
 
 <script lang="ts" setup>
-import Header from "@/components/layout/Header.vue";
+import Header from '@/components/layout/Header.vue'
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
