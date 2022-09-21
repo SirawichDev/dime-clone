@@ -1,6 +1,6 @@
 <template>
-  <div class="flex w-full justify-center gap-10">
-    <AppStore classes="h-auto w-[216px] cursor-pointer" />
+  <div class="flex w-full justify-center gap-10 flex-wrap">
+    <AppStore classes="h-auto  w-[216px] cursor-pointer" />
     <PlayStore classes="h-auto w-[216px] cursor-pointer" />
   </div>
 </template>
