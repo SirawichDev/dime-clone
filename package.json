@@ -4,20 +4,41 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "lint": "eslint . --ext .ts,.vue --fix",
+    "format-check": "npx prettier --check ./",
+    "format-write": "npx prettier --write ./",
+    "prepare": "husky install",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "nuxt": "3.0.0-rc.10",
     "nuxt-windicss": "^2.5.2"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "components/**/*.{vue}": "prettier --write",
-    "layouts/**/*.{vue}": "prettier --write"
+    "*.{js,vue,ts}": [
+      "npm run lint"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
