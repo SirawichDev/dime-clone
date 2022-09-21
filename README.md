@@ -1,5 +1,6 @@
-# Nuxt 3 Dime clone 
-![Screenshot](./hero-section-of-dime-clone.png)
+# Nuxt 3 Dime Landing  
+![Screenshot](./dime-clone-by-x.png)
+![Screenshot](./reponsive.png)
 ## Tech Stack
 - Nuxt 3 Composition
 - Vite
@@ -17,9 +18,9 @@ yarn install
 npm install
 ```
 
-## Power of Windi Analysis
+## Power of Windicss Analysis
 ![Screenshot](./windi-analysis.png)
 
 there are another options to play please checkout to https://windicss.org/ krub ;)
 
-# By Sirawich Voungchuy
+# By Sirawich Voungchuy , Enjoy ;)
