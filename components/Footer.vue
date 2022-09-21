@@ -1,5 +1,5 @@
 <template>
-  <footer class="container mx-auto my-20">
+  <footer class="container mx-auto my-10">
     <div
       class="bg-black flex gap-10 flex-wrap lg:flex-nowrap justify-around items-center mx-10 lg:mx-20 min-h-[300px] rounded-3xl px-10 py-10"
     >
