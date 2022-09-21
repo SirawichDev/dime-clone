@@ -5,6 +5,7 @@
     <Product />
     <OurTeam />
     <JoinUs />
+    <Footer />
   </NuxtLayout>
 </template>
 
@@ -15,6 +16,7 @@ import Service from '@/components/sections/Service.vue'
 import Product from '@/components/sections/Product.vue'
 import OurTeam from '@/components/sections/OurTeam.vue'
 import JoinUs from '@/components/sections/JoinUs.vue'
+import Footer from '@/components/Footer.vue'
 
 useHead({
   title: 'Dime! บริการการเงินดิจิทัลเพื่อทุกคน - เคเคพี่ไดม์',
