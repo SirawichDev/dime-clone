@@ -10,7 +10,9 @@ const textProps = {
     heading: 'text-6xl font-bold',
     subHeading: 'text-lg font-normal',
     subHeading2: 'text-l font-normal',
+    small: 'text-sm',
     topic: 'text-5xl font-bold',
+    subTopic: 'text-3xl font-bold'
 }
 const props = defineProps<{ theme: string, classes?: string}>()
 </script>
