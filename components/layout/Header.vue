@@ -3,16 +3,19 @@
     <header class="container mx-auto">
       <div class="flex items-center justify-between">
         <div class="flex flex-grow-1">
-          <Logo/>
+          <Logo />
         </div>
         <div class="flex items-center">
           <ul class="flex gap-6">
-            <li class="text-base cursor-pointer font-bold text-white  hover:bg-gradient-to-t hover:from-green-500 hover-to-black"
-                v-for="(menu, index) in menus" :key="index">
+            <li
+              v-for="(menu, index) in menus"
+              :key="index"
+              class="text-base cursor-pointer font-bold text-white hover:bg-gradient-to-t hover:from-green-500 hover-to-black"
+            >
               {{ menu.name }}
             </li>
           </ul>
-          <LangSwitch/>
+          <LangSwitch />
         </div>
       </div>
     </header>
@@ -20,30 +23,28 @@
 </template>
 
 <script setup lang="ts">
-import {reactive} from 'vue'
-import LangSwitch from "@/components/LangSwitch.vue";
-import Logo from "@/components/Logo.vue";
+import { reactive } from 'vue'
+import LangSwitch from '@/components/LangSwitch.vue'
+import Logo from '@/components/Logo.vue'
 
 const menus = reactive([
   {
     name: 'เกี่ยวกับเรา',
-    link: '#'
+    link: '#',
   },
   {
     name: 'แผนงาน',
-    link: '#'
+    link: '#',
   },
   {
     name: 'ร่วมงาน',
-    link: '#'
+    link: '#',
   },
   {
     name: 'ติดต่อเรา',
-    link: '#'
-  }
+    link: '#',
+  },
 ])
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
