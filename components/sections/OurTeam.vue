@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="container mx-auto my-[10%]">
-      <div class="flex justify-around gap-10">
+    <div class="container mx-auto my-[20%] lg:my-[10%]">
+      <div class="flex justify-around gap-10 flex-wrap">
         <div class="flex flex-col flex-grow-2">
           <div class="flex flex-col justify-start flex-auto h-50">
             <Text theme="topic" classes="text-black">
@@ -24,7 +24,7 @@
             <ButtonDime
               theme="rounded"
               :classes="`w-15 h-15 flex justify-center items-center bottom-0 ${
-                counter.value === quotes.legth - 1 ? 'bg-gray-400' : ''
+                counter.value === quotes.length - 1 ? 'bg-gray-400' : ''
               }`"
               :disabled="counter.value === quotes.legth"
               @click="goRight"
@@ -36,7 +36,7 @@
         <div
           id="card-slider"
           ref="test"
-          class="scroll-smooth bg-gray-100 min-h-[550px] flex w-[560px] overflow-y-scroll"
+          class="scroll-smooth bg-gray-100 min-h-[550px] flex w-full lg:w-[70%] overflow-x-scroll"
         >
           <Card v-for="(quote, index) in quotes" :key="index" :quote="quote" />
         </div>

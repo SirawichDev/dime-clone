@@ -3,10 +3,12 @@
     <div class="w-full relative overflow-hidden min-h-[656px]">
       <div class="absolute w-full bottom-0 overflow-hidden">
         <img
+          alt="wave-1"
           src="https://dime.co.th/top-hero-bg-left.svg"
           class="relative h-full bottom-0 lg:bottom-[20%] lg:left-[-40%] z-1"
         />
         <img
+          alt="wave-2"
           src="https://dime.co.th/top-hero-bg-right.svg"
           class="absolute bottom-0 right-[-40%] h-[400px] translate-x-[115%] hidden lg:block"
         />
@@ -34,8 +36,12 @@
               การเงิน
             </span>
           </Text>
-          <Text theme="heading">เป็นเรื่องของทุกคน</Text>
-          <Text theme="subHeading" classes="mt-4 w-[70%] text-left"
+          <Text theme="heading" classes="text-center lg:text-left"
+            >เป็นเรื่องของทุกคน</Text
+          >
+          <Text
+            theme="subHeading"
+            classes="mt-4 w-[90%] lg:w-[70%] text-center lg:text-left"
             ><span class="text-dime font-bold">Dime!</span>
             มุ่งมั่นที่จะปฏิวัติธุรกิจการเงินและการลงทุน
             ให้ทุกคนสามารถเข้าถึงผลิตภัณฑ์และบริการทางการเงินได้ง่าย
@@ -48,7 +54,7 @@
       ></div>
     </div>
     <CoinRight
-      classes="absolute bottom-[-5%] lg:bottom-[1] z-2 left-[60%] lg:left-[40%]  h-[10%] lg:h-[20%]"
+      classes="absolute bottom-[-5%] lg:bottom-[1] z-2 left-[50%] lg:left-[40%]  h-[10%] lg:h-[20%]"
     />
   </div>
 </template>

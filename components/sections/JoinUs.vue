@@ -1,16 +1,20 @@
 <template>
-  <div class="container mx-auto flex flex-col justify-center items-center">
+  <div
+    class="w-full mx-0 lg:mx-auto flex flex-col justify-center items-center relative"
+  >
     <Text theme="subTopic" classes="relative text-center mb-10">
       ร่วมงานกับ Dime!
-      <span class="absolute bottom-0 w-85 bg-dime -z-1 h-[18px]"> </span>
+      <div
+        class="absolute bottom-0 right-50 lg:right-0 w-25 lg:w-85 bg-dime -z-1 h-[18px]"
+      ></div>
       <span class="z-5">เพื่อสร้างความเปลี่ยนแปลง</span>
     </Text>
     <div
       v-for="(job, index) in preJobList"
       :key="index"
-      class="drop-shadow-2xl flex gap-20 py-5 my-5 shadow-md border-l-5 border-l-dime rounded-tr-xl rounded-br-xl justify-between items-center w-[60%] px-10 tracking-wide"
+      class="drop-shadow-2xl flex gap-1 lg:gap-20 py-5 my-5 mx-1 lg:mx-0 shadow-md border-l-5 border-l-dime rounded-tr-xl rounded-br-xl justify-between items-center w-[90%] lg:w-[60%] px-10 tracking-wide"
     >
-      <Text theme="small">
+      <Text theme="small" classes="flex grow">
         <span class="font-semibold">{{
           job.title + ' ' + job.level + ' ' + currencyFormat(job.salary)
         }}</span>
@@ -19,10 +23,12 @@
         <span class="font-semibold">{{ dateFormat(job.date) }}</span>
       </Text>
     </div>
+    <Button theme="rectangle" classes="px-8 text-md"> ดูตำแหน่งทั้งหมด </Button>
   </div>
 </template>
 <script lang="ts" setup>
 import Text from '@/components/Text.vue'
+import Button from '@/components/Button.vue'
 
 function currencyFormat(value: string) {
   return new Intl.NumberFormat('th-TH', {

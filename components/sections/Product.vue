@@ -1,8 +1,8 @@
 <template>
   <div class="bg-black relative">
-    <div class="container mx-auto min-h-[500px]">
+    <div class="container relative mx-auto min-h-[700px] lg:min-h-[500px]">
       <img
-        class="absolute"
+        class="absolute h-full"
         src="https://dime.co.th/roadmap-hero-bg-lg.svg"
         alt="product-bg"
       />
@@ -10,8 +10,10 @@
       <CoinLeft classes="absolute right-25 h-30" style="rotate: 339deg" />
       <CoinRight classes="absolute right-60 h-30 bottom-[-10%]" />
       <div class="relative flex justify-center w-full">
-        <div class="transform translate-y-[50%] flex gap-10 z-2 items-center">
-          <div class="flex flex-col w-full justify-center items-end">
+        <div
+          class="transform translate-y-50 lg:translate-y-[50%] flex gap-10 z-2 items-center flex-wrap justify-center lg:flex-nowrap"
+        >
+          <div class="flex flex-col w-auto lg:w-full justify-center items-end">
             <Text
               v-for="(product, index) in products"
               :key="index"
@@ -21,10 +23,10 @@
               {{ product }}<span class="text-dime font-xl">.</span>
             </Text>
           </div>
-          <div class="flex flex-col gap-5">
+          <div class="flex flex-col items-center gap-5">
             <Text
               theme="subHeading"
-              classes="text-white w-95 tracking-wide text-left"
+              classes="text-white w-auto lg:w-95 tracking-wide text-center lg:text-left"
             >
               <span class="text-dime">Dime!</span>
               แอปพลิเคชันที่รวบรวมผลิตภัณฑ์ทางการเงินและการลงทุนหลากหลายประเภท

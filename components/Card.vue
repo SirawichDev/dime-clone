@@ -3,7 +3,7 @@
     <div
       class="absolute top-[7%] left-[-1px] z-0 bg-dime h-[480px] w-[4px]"
     ></div>
-    <div class="w-[400px] flex flex-col flex-grow-2 px-10 py-10">
+    <div class="w-[300px] lg:w-[400px] flex flex-col flex-grow-2 px-10 py-10">
       <Button theme="rounded" classes="w-10 h-10 bg-blue-600">
         <Text theme="subHeading">''</Text>
       </Button>
