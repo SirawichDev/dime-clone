@@ -7,7 +7,8 @@
         </div>
         <div class="flex items-center">
           <ul class="flex gap-6">
-            <li class="text-base cursor-pointer font-bold text-white  hover:bg-gradient-to-t hover:from-green-500 hover-to-black" v-for="(menu, index) in menus" :key="index">
+            <li class="text-base cursor-pointer font-bold text-white  hover:bg-gradient-to-t hover:from-green-500 hover-to-black"
+                v-for="(menu, index) in menus" :key="index">
               {{ menu.name }}
             </li>
           </ul>
