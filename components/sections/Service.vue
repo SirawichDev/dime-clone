@@ -9,13 +9,15 @@
         <Text theme="topic" classes="text-white">
           บริการการเงินดิจิทัลเพื่อทุกคน
         </Text>
-        <Text theme="sub-heading" classes="text-white w-95">
+        <Text theme="sub-heading" classes="text-white w-auto lg:w-95">
           ฝันของคุณคือภารกิจของเรา ให้ Dime! ทำฝันของคุณให้เป็นจริง<strong
             >ไม่เคยลงทุน ไม่เป็นไร</strong
           >
           Dime! ช่วยคุณได้
         </Text>
-        <ButtonDime theme="rectangle" classes="w-2/6"> รู้จักเรา </ButtonDime>
+        <ButtonDime theme="rectangle" classes="w-full lg:w-2/6">
+          รู้จักเรา
+        </ButtonDime>
       </div>
       <div
         class="relative bottom-0 mb-0 lg:mb-[20%] z-1 flex flex-col justify-center items-center gap-0 overflow-auto"
